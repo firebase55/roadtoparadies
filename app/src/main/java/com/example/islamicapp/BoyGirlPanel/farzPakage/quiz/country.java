@@ -1,0 +1,19 @@
+package com.example.islamicapp.BoyGirlPanel.farzPakage.quiz;
+
+public class country {
+    String name;
+    int image;
+
+    public country(String name, int image) {
+        this.name = name;
+        this.image = image;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getImage() {
+        return image;
+    }
+}
