@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.islamicapp.BoyGirlPanel.boygirlPanelActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.namaz.nazamAtivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.qibla.QiblaActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
@@ -40,4 +41,5 @@ public class FarzMaicActivity extends AppCompatActivity {
         Intent intent = new Intent(getApplicationContext(), quizActivity.class);
         startActivity(intent);
     }
+
 }

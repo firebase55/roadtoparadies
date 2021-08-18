@@ -65,7 +65,7 @@ public class wazuActivity extends AppCompatActivity {
     public void popUp(View view)
     {
         new SweetAlertDialog(wazuActivity.this, SweetAlertDialog.SUCCESS_TYPE)
-                .setTitleText("Do you want Attempt Quiz !")
+                .setTitleText("Do you want to Attempt Quiz !")
                 .setConfirmText("Yes")
                 .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
                     @Override

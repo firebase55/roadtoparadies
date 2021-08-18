@@ -84,10 +84,4 @@ public class QiblaActivity extends AppCompatActivity implements SensorEventListe
 
     }
 
-    @Override
-    public void onBackPressed() {
-        Intent intent = new Intent(getApplicationContext(), FarzMaicActivity.class);
-        startActivity(intent);
-
-    }
 }
