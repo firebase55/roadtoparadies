@@ -28,7 +28,7 @@
             android:layout_width="30dp"
             android:layout_gravity="center"
             android:layout_weight="0"
-            android:background="@drawable/ring"
+            android:background="@drawable/compasss"
             android:layout_height="30dp">
 
         </ImageView>

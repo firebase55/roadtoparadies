@@ -15,11 +15,7 @@
         <activity
             android:name=".BoyGirlPanel.farzPakage.dua.duaMAinActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".BoyGirlPanel.Girls_portion.wazu_portion"
@@ -57,7 +53,11 @@
         <activity
             android:name=".BoyGirlPanel.splashScreen.MainActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

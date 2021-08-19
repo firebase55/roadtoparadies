@@ -58,6 +58,15 @@ public class duaMAinActivity extends AppCompatActivity {
         ob2.setTran_end("In the name of Allah and with the blessings of Allah I begin (eating)\n" +
                 "\n");
         holder.add(ob2);
+        Model ob3 = new Model();
+        ob3.setHeader("Eating dua ");
+        ob3.setDesc("بِسْمِ اللَّهِ وَعَلَى بَرَكَةِ اللَّهِ");
+        ob3.setImgname(R.drawable.duaa);
+        ob3.setTran_urdu("میں نے الله کے نام کے ساتھ اور الله کی برکت پر کھانا شروع کیا\n" +
+                "\n");
+        ob3.setTran_end("In the name of Allah and with the blessings of Allah I begin (eating)\n" +
+                "\n");
+        holder.add(ob3);
 
         return holder;
     }

@@ -7,10 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.example.islamicapp.BoyGirlPanel.Girls_portion.wazu_portion;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
 import com.example.islamicapp.R;
 
@@ -27,7 +29,9 @@ public class wazuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wazu);
+
     }
+
 
     public void playvideo(View view) {
         VideoView videoView = findViewById(R.id.first_video);
@@ -39,31 +43,10 @@ public class wazuActivity extends AppCompatActivity {
         videoView.start();
     }
 
-    public void speak_text(View view) {
-        textToSpeech = new TextToSpeech(wazuActivity.this, new TextToSpeech.OnInitListener() {
-            @Override
-            public void onInit(int i) {
-                if (i == TextToSpeech.SUCCESS) {
-                    result = textToSpeech.setLanguage(Locale.ENGLISH);
-                } else {
-                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
-                }
-                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
 
-                } else {
-                    textToSpeech.speak("Wudu (or Wudhu) is a cleansing ritual or ablution \n" +
-                            "        that is an important part of purity and cleanliness in Islam before\n" +
-                            "        performing worship. It follows a process to wash hands, mouth, nostrils,\n" +
-                            "        arms, face, ears, hair and feet" , TextToSpeech.QUEUE_FLUSH, null);
-                }
 
-            }
-        });
-    }
 
-    public void popUp(View view)
-    {
+    public void popup_mesg(View view) {
         new SweetAlertDialog(wazuActivity.this, SweetAlertDialog.SUCCESS_TYPE)
                 .setTitleText("Do you want to Attempt Quiz !")
                 .setConfirmText("Yes")
@@ -86,5 +69,54 @@ public class wazuActivity extends AppCompatActivity {
                     }
                 })
                 .show();
+
+
+}
+
+    public void speak(View view) {
+        textToSpeech = new TextToSpeech(wazuActivity.this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int i) {
+                if (i == TextToSpeech.SUCCESS) {
+                    result = textToSpeech.setLanguage(Locale.ENGLISH);
+                } else {
+                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
+                }
+                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
+
+                } else {
+                    textToSpeech.speak("Wudu (or Wudhu) is a cleansing ritual or ablution \n" +
+                            "        that is an important part of purity and cleanliness in Islam before\n" +
+                            "        performing worship. It follows a process to wash hands, mouth, nostrils,\n" +
+                            "        arms, face, ears, hair and feet", TextToSpeech.QUEUE_FLUSH, null);
+                }
+
+            }
+        });
+    }
+
+    public void wazu_speak(View view)
+    {
+        textToSpeech = new TextToSpeech(wazuActivity.this, new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int i) {
+                if (i == TextToSpeech.SUCCESS) {
+                    result = textToSpeech.setLanguage(Locale.ENGLISH);
+                } else {
+                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
+                }
+                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
+
+                } else {
+                    textToSpeech.speak("Wudu (or Wudhu) is a cleansing ritual or ablution \n" +
+                            "        that is an important part of purity and cleanliness in Islam before\n" +
+                            "        performing worship. It follows a process to wash hands, mouth, nostrils,\n" +
+                            "        arms, face, ears, hair and feet", TextToSpeech.QUEUE_FLUSH, null);
+                }
+
+            }
+        });
     }
 }
