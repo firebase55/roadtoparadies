@@ -3,7 +3,6 @@ package com.example.islamicapp.BoyGirlPanel.farzPakage.qibla;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -14,7 +13,6 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMaicActivity;
 import com.example.islamicapp.R;
 
 public class QiblaActivity extends AppCompatActivity implements SensorEventListener {

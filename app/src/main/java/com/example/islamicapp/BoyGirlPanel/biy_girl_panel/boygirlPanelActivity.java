@@ -1,4 +1,4 @@
-package com.example.islamicapp.BoyGirlPanel;
+package com.example.islamicapp.BoyGirlPanel.biy_girl_panel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.islamicapp.BoyGirlPanel.boy.boyActivity;
-import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMaicActivity;
-import com.example.islamicapp.BoyGirlPanel.farzPakage.qibla.QiblaActivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity;
 import com.example.islamicapp.R;
 
 public class boygirlPanelActivity extends AppCompatActivity {
@@ -23,5 +22,12 @@ public class boygirlPanelActivity extends AppCompatActivity {
     {
         Intent intent = new Intent(getApplicationContext(), boyActivity.class);
         startActivity(intent);
+    }
+
+    public void girl_panel(View view)
+    {
+        Intent intent = new Intent(getApplicationContext(), boyActivity.class);
+        startActivity(intent);
+
     }
 }

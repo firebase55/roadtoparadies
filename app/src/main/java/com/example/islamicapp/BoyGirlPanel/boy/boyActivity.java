@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMaicActivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity;
 import com.example.islamicapp.R;
 
 public class boyActivity extends AppCompatActivity {

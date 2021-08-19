@@ -26,12 +26,18 @@
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_weight="2"
+        android:background="@drawable/frame"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginLeft="20sp"
         android:gravity="center"
         android:layout_height="0dp">
     <ImageView
         android:layout_width="250dp"
         android:background="@drawable/compasss"
         android:id="@+id/compass"
+        android:scaleType="center"
         android:layout_height="250dp">
 
     </ImageView>
@@ -46,7 +52,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="40dp"
             android:layout_marginTop="20dp"
-            android:text="Heading: 0.0" />
+            android:text=" 0.0" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"

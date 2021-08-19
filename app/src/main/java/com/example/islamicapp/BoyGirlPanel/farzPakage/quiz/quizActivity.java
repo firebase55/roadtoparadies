@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMaicActivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity;
 import com.example.islamicapp.R;
 
 import java.util.ArrayList;

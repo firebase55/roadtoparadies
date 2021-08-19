@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.islamicapp">
 
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/iconapp"
@@ -11,10 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicApp">
         <activity
-            android:name=".BoyGirlPanel.farzPakage.quiz.quizActivity"
+            android:name=".BoyGirlPanel.farzPakage.dua.showlistdata.listActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.dua.duaMAinActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".BoyGirlPanel.Girls_portion.wazu_portion"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.Girls_portion.namaz_portion"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.quiz.quizActivity"
+            android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.farzPakage.namaz.nazamAtivity"
             android:exported="true" />
@@ -25,30 +40,24 @@
             android:name=".BoyGirlPanel.farzPakage.qibla.QiblaActivity"
             android:exported="true" />
         <activity
-            android:name=".BoyGirlPanel.farzPakage.FarzMaicActivity"
+            android:name=".BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity"
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.boy.boyActivity"
             android:exported="true" />
         <activity
-            android:name=".BoyGirlPanel.boygirlPanelActivity"
+            android:name=".BoyGirlPanel.biy_girl_panel.boygirlPanelActivity"
             android:exported="true" />
         <activity
             android:name=".Registrationpakage.LoginActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".Registrationpakage.Registereduser"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".BoyGirlPanel.splashScreen.MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

@@ -7,11 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.islamicapp.BoyGirlPanel.boygirlPanelActivity;
-import com.example.islamicapp.MainActivity;
+import com.example.islamicapp.BoyGirlPanel.biy_girl_panel.boygirlPanelActivity;
 import com.example.islamicapp.R;
-
-import org.w3c.dom.Text;
 
 public class LoginActivity extends AppCompatActivity {
 private Button Main_panel_boy_girl;

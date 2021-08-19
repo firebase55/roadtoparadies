@@ -11,20 +11,26 @@
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/newdesign.xml" value="0.2203125" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/pass.xml" value="0.2203125" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/quizframe.xml" value="0.14290540540540542" />
+        <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/ring.xml" value="0.2203125" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/shap.xml" value="0.13778501628664494" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/shapdesign.xml" value="0.2203125" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/vdo.xml" value="0.13914473684210527" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_boy.xml" value="0.11367753623188406" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_boygirl_panel.xml" value="0.1" />
+        <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_dua_main.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_farz_maic.xml" value="0.15" />
+        <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_list.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_namaz.xml" value="0.1" />
+        <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_namaz_portion.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_nazam_ativity.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_qibla.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_quiz.xml" value="0.1" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_registereduser.xml" value="0.12" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_wazu.xml" value="0.1" />
+        <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_wazu_portion.xml" value="0.1" />
+        <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/singlerow.xml" value="0.1" />
       </map>
     </option>
   </component>
