@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "827548420859",
+    "project_id": "roadtoparadies-40a86",
+    "storage_bucket": "roadtoparadies-40a86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827548420859:android:e7b4227f417051c7747e5e",
+        "android_client_info": {
+          "package_name": "com.example.islamicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "827548420859-c41d69bi28dbvagf9ido9hgknprsq749.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRQsqwIXI5lqOofiz1-KtJZ3CxhnxFyDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "827548420859-c41d69bi28dbvagf9ido9hgknprsq749.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
