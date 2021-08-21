@@ -147,7 +147,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:text="Time"
+                            android:text="@string/Fajr"
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textSize="17sp"
@@ -190,7 +190,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:text="Time"
+                            android:text="@string/Zuhar"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="@color/appcolor"
@@ -232,7 +232,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:text="Time"
+                            android:text="@string/Asar"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="@color/appcolor"
@@ -274,7 +274,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:text="Time"
+                            android:text="@string/Maghrib"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="@color/appcolor"
@@ -316,7 +316,7 @@
                         <TextView
                             android:layout_width="0dp"
                             android:layout_weight="1"
-                            android:text="Time"
+                            android:text="@string/Isha"
                             android:gravity="center"
                             android:textStyle="bold"
                             android:textSize="17sp"

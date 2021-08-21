@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicApp">
         <activity
+            android:name=".BoyGirlPanel.girl.girl_activity"
+            android:exported="true" />
+        <activity
+            android:name=".girl_five_list.Mainactivty_girl_portion"
+            android:exported="true" />
+        <activity
             android:name=".BoyGirlPanel.farzPakage.namazpkg.namazz"
             android:exported="true" />
         <activity
@@ -41,6 +47,12 @@
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.boy.boyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.biy_girl_panel.boygirlPanelActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,12 +61,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BoyGirlPanel.boy.boyActivity"
-            android:exported="true" />
-        <activity
-            android:name=".BoyGirlPanel.biy_girl_panel.boygirlPanelActivity"
-            android:exported="true" />
-        <activity
             android:name=".Registrationpakage.LoginActivity"
             android:exported="true" />
         <activity
@@ -62,7 +68,7 @@
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.splashScreen.MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

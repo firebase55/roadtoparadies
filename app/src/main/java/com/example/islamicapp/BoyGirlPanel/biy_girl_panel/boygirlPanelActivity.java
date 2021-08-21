@@ -8,6 +8,7 @@ import android.view.View;
 
 import com.example.islamicapp.BoyGirlPanel.boy.boyActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity;
+import com.example.islamicapp.BoyGirlPanel.girl.girl_activity;
 import com.example.islamicapp.R;
 
 public class boygirlPanelActivity extends AppCompatActivity {
@@ -26,7 +27,7 @@ public class boygirlPanelActivity extends AppCompatActivity {
 
     public void girl_panel(View view)
     {
-        Intent intent = new Intent(getApplicationContext(), boyActivity.class);
+        Intent intent = new Intent(getApplicationContext(), girl_activity.class);
         startActivity(intent);
 
     }

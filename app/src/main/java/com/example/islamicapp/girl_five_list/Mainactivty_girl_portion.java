@@ -1,4 +1,5 @@
-package com.example.islamicapp.BoyGirlPanel.farzPakage.FarzMainActivity;
+package com.example.islamicapp.girl_five_list;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -11,16 +12,15 @@ import com.example.islamicapp.BoyGirlPanel.farzPakage.dua.duaMAinActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.namazpkg.namazz;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.qibla.QiblaActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
-import com.example.islamicapp.BoyGirlPanel.farzPakage.wazu.wazuActivity;
 import com.example.islamicapp.R;
-public class FarzMaicActivity extends AppCompatActivity {
+
+public class Mainactivty_girl_portion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_farz_maic);
+        setContentView(R.layout.activity_mainactivty_girl_portion);
     }
-
     public void qibla(View view)
     {
         Intent intent = new Intent(getApplicationContext(), QiblaActivity.class);
@@ -29,13 +29,13 @@ public class FarzMaicActivity extends AppCompatActivity {
 
     public void wazu(View view)
     {
-        Intent intent = new Intent(getApplicationContext(), wazuActivity.class);
+        Intent intent = new Intent(getApplicationContext(), wazu_portion.class);
         startActivity(intent);
     }
 
     public void namaz(View view)
     {
-        Intent intent = new Intent(getApplicationContext(), namazz.class);
+        Intent intent = new Intent(getApplicationContext(), namaz_portion.class);
         startActivity(intent);
     }
 

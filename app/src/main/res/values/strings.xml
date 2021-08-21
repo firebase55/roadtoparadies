@@ -8,7 +8,12 @@
     <string name="Namaz">Namaz</string>
     <string name="duwa">Duwa</string>
     <string name="Farz">Farz</string>
+    <string name="Fajr">Fajr</string>
+    <string name="Zuhar">Zuhar (Duhr)</string>
     <string name="namazquiz">Namaz Quiz</string>
+    <string name="Asar">Asar</string>
+    <string name="Maghrib">Maghrib</string>
+    <string name="Isha">Isha</string>
     <string name="guse">guess who pictures quiz</string>
     <string name="quiz">Quiz</string>
     <string name="wazu_des">Wudu (or Wudhu) is a cleansing ritual or ablution
