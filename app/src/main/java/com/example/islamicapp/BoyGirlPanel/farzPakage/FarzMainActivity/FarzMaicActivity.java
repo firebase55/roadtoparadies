@@ -8,10 +8,9 @@ import android.view.View;
 import com.example.islamicapp.BoyGirlPanel.Girls_portion.namaz_portion;
 import com.example.islamicapp.BoyGirlPanel.Girls_portion.wazu_portion;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.dua.duaMAinActivity;
-import com.example.islamicapp.BoyGirlPanel.farzPakage.namaz.nazamAtivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.namazpkg.namazz;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.qibla.QiblaActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
-import com.example.islamicapp.BoyGirlPanel.farzPakage.wazu.wazuActivity;
 import com.example.islamicapp.R;
 public class FarzMaicActivity extends AppCompatActivity {
 
@@ -35,7 +34,7 @@ public class FarzMaicActivity extends AppCompatActivity {
 
     public void namaz(View view)
     {
-        Intent intent = new Intent(getApplicationContext(), namaz_portion.class);
+        Intent intent = new Intent(getApplicationContext(), namazz.class);
         startActivity(intent);
     }
 

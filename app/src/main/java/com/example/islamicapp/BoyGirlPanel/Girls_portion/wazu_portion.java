@@ -13,6 +13,7 @@ import android.widget.VideoView;
 
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.wazu.wazuActivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity;
 import com.example.islamicapp.R;
 
 import java.util.Locale;
@@ -42,6 +43,7 @@ public class wazu_portion extends AppCompatActivity {
     }
 
     public void caa(View view) {
+        Toast.makeText(getApplicationContext(), "new", Toast.LENGTH_SHORT).show();
         new SweetAlertDialog(wazu_portion.this, SweetAlertDialog.SUCCESS_TYPE)
                 .setTitleText("Do you want to Attempt Quiz !")
                 .setConfirmText("Yes")
@@ -49,7 +51,7 @@ public class wazu_portion extends AppCompatActivity {
                     @Override
                     public void onClick(SweetAlertDialog sDialog) {
 
-                        Intent gameIntent = new Intent(getApplicationContext(), quizActivity.class);
+                        Intent gameIntent = new Intent(getApplicationContext(), wazuQuizActivity.class);
                         startActivity(gameIntent);
 
                     }

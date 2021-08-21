@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicApp">
         <activity
+            android:name=".BoyGirlPanel.farzPakage.namazpkg.namazz"
+            android:exported="true" />
+        <activity
             android:name=".BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity"
             android:exported="true" />
         <activity
@@ -29,9 +32,6 @@
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.farzPakage.quiz.quizActivity"
-            android:exported="true" />
-        <activity
-            android:name=".BoyGirlPanel.farzPakage.namaz.nazamAtivity"
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.farzPakage.wazu.wazuActivity"
@@ -62,9 +62,7 @@
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.splashScreen.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
