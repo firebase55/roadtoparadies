@@ -3,14 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".BoyGirlPanel.farzPakage.wazu.wazuActivity"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@drawable/shapdesign"
-        android:onClick="popup_mesg"
         android:orientation="horizontal"
+        android:onClick="mesg"
         android:weightSum="2">
 
         <TextView
@@ -100,7 +102,6 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
-                android:onClick="check"
                 app:cardBackgroundColor="@color/white"
                 app:cardCornerRadius="20sp">
 

@@ -14,7 +14,10 @@ import android.widget.VideoView;
 
 import com.example.islamicapp.BoyGirlPanel.Girls_portion.wazu_portion;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity;
 import com.example.islamicapp.R;
+import com.example.islamicapp.Registrationpakage.LoginActivity;
+import com.example.islamicapp.Registrationpakage.Registereduser;
 
 import java.util.Locale;
 
@@ -44,36 +47,7 @@ public class wazuActivity extends AppCompatActivity {
     }
 
 
-
-
-    public void popup_mesg(View view) {
-        new SweetAlertDialog(wazuActivity.this, SweetAlertDialog.SUCCESS_TYPE)
-                .setTitleText("Do you want to Attempt Quiz !")
-                .setConfirmText("Yes")
-                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                    @Override
-                    public void onClick(SweetAlertDialog sDialog) {
-
-                        Intent gameIntent = new Intent(getApplicationContext(), quizActivity.class);
-                        startActivity(gameIntent);
-
-                    }
-                })
-                .setCancelText("No")
-                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                    @Override
-                    public void onClick(SweetAlertDialog sDialog) {
-
-                        sDialog.dismissWithAnimation();
-
-                    }
-                })
-                .show();
-
-
-}
-
-    public void speak(View view) {
+    public void wazu_speak(View view) {
         textToSpeech = new TextToSpeech(wazuActivity.this, new TextToSpeech.OnInitListener() {
             @Override
             public void onInit(int i) {
@@ -96,27 +70,28 @@ public class wazuActivity extends AppCompatActivity {
         });
     }
 
-    public void wazu_speak(View view)
-    {
-        textToSpeech = new TextToSpeech(wazuActivity.this, new TextToSpeech.OnInitListener() {
-            @Override
-            public void onInit(int i) {
-                if (i == TextToSpeech.SUCCESS) {
-                    result = textToSpeech.setLanguage(Locale.ENGLISH);
-                } else {
-                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
-                }
-                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                    Toast.makeText(wazuActivity.this, "Not Support in your device", Toast.LENGTH_SHORT).show();
+    public void mesg(View view) {
+        new SweetAlertDialog(wazuActivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                .setTitleText("Do you want Quit App !")
+                .setConfirmText("Yes")
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
 
-                } else {
-                    textToSpeech.speak("Wudu (or Wudhu) is a cleansing ritual or ablution \n" +
-                            "        that is an important part of purity and cleanliness in Islam before\n" +
-                            "        performing worship. It follows a process to wash hands, mouth, nostrils,\n" +
-                            "        arms, face, ears, hair and feet", TextToSpeech.QUEUE_FLUSH, null);
-                }
+                        Intent wazu = new Intent(getApplicationContext(), wazuQuizActivity.class);
+                        startActivity(wazu);
 
-            }
-        });
+                    }
+                })
+                .setCancelText("No")
+                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
+
+                        sDialog.dismissWithAnimation();
+
+                    }
+                })
+                .show();
     }
 }

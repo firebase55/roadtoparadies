@@ -3,12 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".BoyGirlPanel.farzPakage.namaz.nazamAtivity"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:weightSum="2"
+        android:onClick="quiz"
         android:orientation="horizontal"
         android:background="@drawable/shapdesign">
 
@@ -29,7 +32,7 @@
             android:layout_gravity="center"
             android:layout_weight="0"
             android:id="@+id/namaz_quiz_id"
-            android:background="@drawable/compasss"
+            android:background="@drawable/ri"
             android:layout_height="30dp">
 
         </ImageView>

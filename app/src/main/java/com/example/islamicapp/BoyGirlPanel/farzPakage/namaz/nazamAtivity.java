@@ -2,6 +2,7 @@ package com.example.islamicapp.BoyGirlPanel.farzPakage.namaz;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +11,13 @@ import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
+import com.example.islamicapp.BoyGirlPanel.farzPakage.namazQuiz.NamazQuiz;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.wazu.wazuActivity;
+import com.example.islamicapp.BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity;
 import com.example.islamicapp.R;
+import com.example.islamicapp.Registrationpakage.Registereduser;
+
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 public class nazamAtivity extends AppCompatActivity {
 
@@ -18,14 +25,7 @@ public class nazamAtivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nazam_ativity);
-        ImageView imageView = (ImageView) findViewById(R.id.namaz_quiz_id);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "clicked", Toast.LENGTH_SHORT).show();
 
-            }
-        });
     }
 
     public void playvideo(View view)
@@ -40,4 +40,29 @@ public class nazamAtivity extends AppCompatActivity {
     }
 
 
+    public void quiz(View view)
+    {
+        new SweetAlertDialog(nazamAtivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                .setTitleText("Do you want to Attempt Quiz !")
+                .setConfirmText("Yes")
+                .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
+
+                        Intent intent = new Intent(getApplicationContext(),NamazQuiz.class);
+                        startActivity(intent);
+
+                    }
+                })
+                .setCancelText("No")
+                .setCancelClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                    @Override
+                    public void onClick(SweetAlertDialog sDialog) {
+
+                        sDialog.dismissWithAnimation();
+
+                    }
+                })
+                .show();
+    }
 }

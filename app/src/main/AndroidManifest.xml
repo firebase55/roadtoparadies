@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicApp">
         <activity
+            android:name=".BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.namazQuiz.NamazQuiz"
+            android:exported="true" />
+        <activity
             android:name=".BoyGirlPanel.farzPakage.dua.showlistdata.listActivity"
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.farzPakage.dua.duaMAinActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.Girls_portion.wazu_portion"
             android:exported="true" />
@@ -37,7 +41,13 @@
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.farzPakage.FarzMainActivity.FarzMaicActivity"
-            android:exported="true" />
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".BoyGirlPanel.boy.boyActivity"
             android:exported="true" />
@@ -53,11 +63,7 @@
         <activity
             android:name=".BoyGirlPanel.splashScreen.MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
