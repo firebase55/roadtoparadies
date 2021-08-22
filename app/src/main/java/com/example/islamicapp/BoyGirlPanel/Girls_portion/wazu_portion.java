@@ -14,6 +14,7 @@ import android.widget.VideoView;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.wazu.wazuActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity;
+import com.example.islamicapp.BoyGirlPanel.girl.wazuQuiz.wazu_quiz_girl;
 import com.example.islamicapp.R;
 
 import java.util.Locale;
@@ -51,7 +52,7 @@ public class wazu_portion extends AppCompatActivity {
                     @Override
                     public void onClick(SweetAlertDialog sDialog) {
 
-                        Intent gameIntent = new Intent(getApplicationContext(), wazuQuizActivity.class);
+                        Intent gameIntent = new Intent(getApplicationContext(), wazu_quiz_girl.class);
                         startActivity(gameIntent);
 
                     }

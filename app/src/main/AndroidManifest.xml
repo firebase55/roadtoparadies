@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicApp">
         <activity
+            android:name=".BoyGirlPanel.girl.wazuQuiz.wazu_quiz_girl"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.girl.namazQuiz.namazQuiz"
+            android:exported="true" />
+        <activity
             android:name=".BoyGirlPanel.girl.girl_activity"
             android:exported="true" />
         <activity
