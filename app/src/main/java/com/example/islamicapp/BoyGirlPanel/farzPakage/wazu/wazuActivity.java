@@ -38,7 +38,7 @@ public class wazuActivity extends AppCompatActivity {
 
     public void playvideo(View view) {
         VideoView videoView = findViewById(R.id.first_video);
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.cartoon);
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.boywadu);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);

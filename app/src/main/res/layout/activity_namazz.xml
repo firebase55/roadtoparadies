@@ -173,8 +173,8 @@
                             android:layout_width="0dp"
                             android:layout_weight="1"
                             android:gravity="center"
+                            android:onClick="change"
                             android:id="@+id/switch_1"
-
                             android:layout_height="match_parent">
 
                         </Switch>

@@ -22,7 +22,7 @@ public class namaz_portion extends AppCompatActivity {
     public void play_animation(View view)
     {
         VideoView videoView = findViewById(R.id.first_video);
-        Uri uri = Uri.parse("android.resource://"+ getPackageName()+"/"+ R.raw.cartoon);
+        Uri uri = Uri.parse("android.resource://"+ getPackageName()+"/"+ R.raw.girlnimaz);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
