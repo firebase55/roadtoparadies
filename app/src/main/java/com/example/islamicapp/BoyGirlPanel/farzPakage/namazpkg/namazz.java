@@ -22,7 +22,7 @@ import java.util.Date;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
 //
-
+//
 public class namazz extends AppCompatActivity {
     TimePicker timepicker;
 
