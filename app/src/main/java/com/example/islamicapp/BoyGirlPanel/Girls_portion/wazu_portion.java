@@ -35,7 +35,7 @@ public class wazu_portion extends AppCompatActivity {
     public void play_ani(View view)
     {
         VideoView videoView = findViewById(R.id.first_video);
-        Uri uri = Uri.parse("android.resource://"+ getPackageName()+"/"+ R.raw.girlwadu);
+        Uri uri = Uri.parse("android.resource://"+ getPackageName()+"/"+ R.raw.wadu_f);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);

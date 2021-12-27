@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
+import com.example.islamicapp.BoyGirlPanel.biy_girl_panel.boygirlPanelActivity;
 import com.example.islamicapp.R;
-import com.example.islamicapp.Registrationpakage.Registereduser;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -19,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
                     sleep(3*1000);
 
                     // After 5 seconds redirect to another intent
-                    Intent i=new Intent(getBaseContext(), Registereduser.class);
+                    Intent i=new Intent(getBaseContext(), boygirlPanelActivity.class);
                     startActivity(i);
 
                     //Remove activity

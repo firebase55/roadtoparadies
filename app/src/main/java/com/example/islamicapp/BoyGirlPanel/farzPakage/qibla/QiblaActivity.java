@@ -1,8 +1,6 @@
 
 package com.example.islamicapp.BoyGirlPanel.farzPakage.qibla;
-
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
@@ -21,7 +19,6 @@ public class QiblaActivity extends AppCompatActivity implements SensorEventListe
     private float currentDegree = 0f;
     // device sensor manager
     private SensorManager mSensorManager;
-
     TextView tvHeading;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +53,10 @@ public class QiblaActivity extends AppCompatActivity implements SensorEventListe
         float degree = Math.round(event.values[0]);
 
         tvHeading.setText("Heading: " + Float.toString(degree) + " degrees");
+//        if(degree==44)
+//        {
+//
+//        }
 
         // create a rotation animation (reverse turn degree degrees)
         RotateAnimation ra = new RotateAnimation(

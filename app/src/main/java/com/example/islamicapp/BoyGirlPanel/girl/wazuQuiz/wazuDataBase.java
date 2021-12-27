@@ -6,10 +6,18 @@ import com.example.islamicapp.R;
 
 public class wazuDataBase {
     Integer[] images = {
-            R.drawable.compass,
-            R.drawable.boy,
-            R.drawable.girl,
-            R.drawable.a3    };
-    String [] Ans = {"compass","boy","girl","appicon",};
+            R.drawable.image1,
+            R.drawable.image2,
+            R.drawable.image3,
+            R.drawable.image4,
+            R.drawable.image5,
+            R.drawable.image6,
+            R.drawable.imag7,
+            R.drawable.image8,
+    };
+    String [] Ans =  {"Wash Face","Rinse Out","Clean nose",
+            "Foot wash","Washing Head", "Washing Ear",
+            "Washing Arms","Washing Hands"
+    };
 
 }

@@ -38,7 +38,6 @@ public class quizActivity extends AppCompatActivity {
         r = new Random();
         for (int i = 0; i < new Datebase().Ans.length; i++) {
             list.add(new country(new Datebase().Ans[i], new Datebase().flags[i]));
-
         }
         Collections.shuffle(list);
         newQuestion(turn);

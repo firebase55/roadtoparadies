@@ -14,11 +14,18 @@
     <string name="Asar">Asar</string>
     <string name="Maghrib">Maghrib</string>
     <string name="Isha">Isha</string>
-    <string name="guse">guess who pictures quiz</string>
+    <string name="guse">guess the pictures </string>
     <string name="quiz">Quiz</string>
     <string name="wazu_des">Wudu (or Wudhu) is a cleansing ritual or ablution
         that is an important part of purity and cleanliness in Islam before
         performing worship. It follows a process to wash hands, mouth, nostrils,
         arms, face, ears, hair and feet.</string>
+    <string name="fajir">Time for this prayer starts with the beginning of dawn and remain till the sun rises. It is 4 Rakat prayer – 2 Rakats Fard and 2 Rakats Sunnah. It is challenging to wake up early in the morning for prayer. However, praying at the beginning of the day, lighten up your day</string>
+    <string name="zuhar_nimaz">After the first prayer, Muslims perform their second prayer which is Zuhar(Dhuhr). They start with daily routine jobs by offering the Zuhar prayer in the noon. This prayer comprises of 4 Rakats of Sunnah, 4 Rakat Farz, then 2 Rakat Sunnah and 2 Rakat Nafl.</string>
+    <string name="asar_nimaz">After the Zuhar prayer, it is time for the Asar prayer and it’s time that starts in the afternoon. This prayer comprises of 4 Rakat Sunnah before offering 4 Rakat Fard prayer</string>
+    <string name="mmagrib">The time for Maghrib prayer starts immediately after the sunset but is offered before it is dark outside and the red light in the sky has vanished. It has 7 Rakats which are 3 Rakats fard, 2 Rakats Sunnah, and 2 Rakats Nafl</string>
+    <string name="esha">The last prayer of the day is Isha prayer and it’s time starts when the time of Maghrib prayer ends and remains until midnight. It includes total 17 Rakats encompassing 4 Rakats Sunnah, 4 Rakats Fard, 2 Rakat Sunnah, 2 Rakat Nafil, 3 Witr, and 2 Rakat Nafl. If you offer this prayer, Allah will reward you</string>
+    <string name="ok">ok</string>
+    <string name="your_notification_time_is_set">Your Notification time is Set</string>
 
 </resources>

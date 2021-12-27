@@ -7,17 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.Toast;
 import android.widget.VideoView;
 
-import com.example.islamicapp.BoyGirlPanel.Girls_portion.wazu_portion;
-import com.example.islamicapp.BoyGirlPanel.farzPakage.quiz.quizActivity;
 import com.example.islamicapp.BoyGirlPanel.farzPakage.wazuQuiz.wazuQuizActivity;
 import com.example.islamicapp.R;
-import com.example.islamicapp.Registrationpakage.LoginActivity;
-import com.example.islamicapp.Registrationpakage.Registereduser;
 
 import java.util.Locale;
 
@@ -32,21 +27,17 @@ public class wazuActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wazu);
-
     }
-
 
     public void playvideo(View view) {
         VideoView videoView = findViewById(R.id.first_video);
-        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.boywadu);
+        Uri uri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.boy_wudu_final);
         videoView.setVideoURI(uri);
         MediaController mediaController = new MediaController(this);
         mediaController.setAnchorView(videoView);
         videoView.setMediaController(mediaController);
         videoView.start();
     }
-
-
     public void wazu_speak(View view) {
         textToSpeech = new TextToSpeech(wazuActivity.this, new TextToSpeech.OnInitListener() {
             @Override

@@ -33,13 +33,20 @@
         android:layout_marginLeft="20sp"
         android:gravity="center"
         android:layout_height="0dp">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_gravity="end"
+            android:visibility="invisible"
+            android:layout_marginEnd="13dp"
+            android:background="@drawable/qibla"
+            android:layout_marginBottom="20dp"
+            android:layout_height="30dp"/>
     <ImageView
         android:layout_width="250dp"
-        android:background="@drawable/compasss"
+        android:background="@drawable/com"
         android:id="@+id/compass"
         android:scaleType="center"
         android:layout_height="250dp">
-
     </ImageView>
         <TextView
             android:id="@+id/tvHeading"

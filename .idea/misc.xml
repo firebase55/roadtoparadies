@@ -3,7 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_namazz.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/texbackground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_asar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_asar_gilr.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_boy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_boygirl_panel.xml" value="0.18297101449275363" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_esha.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_esha_girl.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_fajir_girl.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_fajur.xml" value="0.15" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_farz_maic.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_girl.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_mainactivty_girl_portion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_mugrib_girl.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_muqraib.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_namaz_portion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_namazz.xml" value="0.18" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_qibla.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_quiz.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_zuhar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/activity_zuhar_girl.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Zaas/AndroidStudioProjects/IslamicApp/app/src/main/res/layout/add_text_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable-v24/newdesign.xml" value="0.2203125" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/adress.xml" value="0.2203125" />
         <entry key="..\:/Users/aqif/AndroidStudioProjects/IslamicApp/app/src/main/res/drawable/email.xml" value="0.2203125" />

@@ -10,6 +10,36 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IslamicApp">
         <activity
+            android:name=".BoyGirlPanel.Girls_portion.esha_girl"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.Girls_portion.mugrib_girl"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.Girls_portion.asar_gilr"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.Girls_portion.zuhar_girl"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.Girls_portion.fajir_girl"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.namazpkg.esha"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.namazpkg.muqraib"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.namazpkg.asar"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.namazpkg.zuhar"
+            android:exported="true" />
+        <activity
+            android:name=".BoyGirlPanel.farzPakage.namazpkg.fajur"
+            android:exported="true" />
+        <activity
             android:name=".BoyGirlPanel.girl.wazuQuiz.wazu_quiz_girl"
             android:exported="true" />
         <activity
@@ -59,14 +89,6 @@
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.biy_girl_panel.boygirlPanelActivity"
-            android:exported="true">
-
-        </activity>
-        <activity
-            android:name=".Registrationpakage.LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".Registrationpakage.Registereduser"
             android:exported="true" />
         <activity
             android:name=".BoyGirlPanel.splashScreen.MainActivity"
