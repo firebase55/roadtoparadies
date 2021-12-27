@@ -22,7 +22,7 @@ public class wazuActivity extends AppCompatActivity {
     TextToSpeech textToSpeech;
     String text;
     int result;
-
+//
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
